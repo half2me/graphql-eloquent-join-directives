@@ -13,8 +13,6 @@ class GraphqlEloquentJoinDirectivesServiceProvider extends ServiceProvider
      */
     public function boot(EventsDispatcher $eventsDispatcher)
     {
-        parent::boot();
-
         $eventsDispatcher->listen(
             RegisterDirectiveNamespaces::class,
             function (RegisterDirectiveNamespaces $registerDirectiveNamespaces): string {
