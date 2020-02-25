@@ -1,6 +1,6 @@
 <?php
 
-namespace Half2me\EloquentGraphqlJoinDirectives;
+namespace Half2me\GraphqlEloquentJoinDirectives;
 
 use Illuminate\Contracts\Events\Dispatcher as EventsDispatcher;
 use Illuminate\Support\ServiceProvider;

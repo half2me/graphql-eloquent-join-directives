@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Half2me\EloquentGraphqlJoinDirectives\Directives;
+namespace Half2me\GraphqlEloquentJoinDirectives\Directives;
 
 
 use Fico7489\Laravel\EloquentJoin\EloquentJoinBuilder;

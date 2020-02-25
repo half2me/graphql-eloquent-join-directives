@@ -1,8 +1,6 @@
 <?php
 
-
-namespace App\GraphQL\Directives;
-
+namespace Half2me\GraphqlEloquentJoinDirectives\Directives;
 
 use Fico7489\Laravel\EloquentJoin\EloquentJoinBuilder;
 use Nuwave\Lighthouse\Schema\Directives\WhereDirective;

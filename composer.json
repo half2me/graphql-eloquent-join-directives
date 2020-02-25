@@ -8,9 +8,16 @@
         "fico7489/laravel-eloquent-join": "^4.0"
     },
     "license": "MIT",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Half2me\\GraphqlEloquentJoinDirectives\\GraphqlEloquentJoinDirectivesServiceProvider"
+            ]
+        }
+    },
     "autoload": {
         "psr-4": {
-            "Half2me\\EloquentGraphqlJoinDirectives\\": "src/"
+            "Half2me\\GraphqlEloquentJoinDirectives\\": "src/"
         }
     }
 }
