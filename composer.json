@@ -1,0 +1,16 @@
+{
+    "name": "half2me/graphql-eloquent-join-directives",
+    "description": "GraphQL Directives for Laravel Eloquent Join",
+    "type": "library",
+    "require": {
+        "laravel/framework": "^6.17",
+        "nuwave/lighthouse": "^4.9",
+        "fico7489/laravel-eloquent-join": "^4.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Half2me\\EloquentGraphqlJoinDirectives\\": "src/"
+        }
+    }
+}
