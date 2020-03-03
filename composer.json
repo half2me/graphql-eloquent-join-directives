@@ -5,7 +5,7 @@
     "require": {
         "laravel/framework": ">=6.0",
         "nuwave/lighthouse": "^4.9",
-        "fico7489/laravel-eloquent-join": "^4.0"
+        "fico7489/laravel-eloquent-join": ">=4.0"
     },
     "license": "MIT",
     "extra": {
